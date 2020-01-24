@@ -17,6 +17,7 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^1.10.4",
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@nuxtjs/vuetify": "^1.0.0",
@@ -25,6 +26,8 @@
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.0.1",
+    "istanbul-lib-coverage": "^3.0.0",
+    "nyc": "^15.0.0",
     "prettier": "^1.16.4"
   }
 }
