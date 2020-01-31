@@ -77,6 +77,9 @@ export default {
    ** Build configuration
    */
   build: {
+    babel: {
+      plugins: [['babel-plugin-istanbul']]
+    },
     /*
      ** You can extend webpack config here
      */
